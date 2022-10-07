@@ -26,7 +26,7 @@ async function start() {
     await mongoose.connect(
       'mongodb+srv://Sergei:mongoDbPassword@cluster0.goad9kb.mongodb.net/todos',
       {
-        useNewUrlParser: true,
+        // useNewUrlParser: true,
         // useFindAndModify: false,
       },
     );
